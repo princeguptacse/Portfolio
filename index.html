@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prince Gupta - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <h2 class="logo">My Portfolio</h2>
+    <button id="menu-btn">Menu</button>
+    <ul id="nav-list">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button id="theme-btn">Dark</button>
+  </nav>
+
+  <section id="home">
+    <img src="images/profile.jpg" alt="my photo" class="profile-pic"
+         onerror="this.src='https://api.dicebear.com/7.x/initials/svg?seed=Prince'">
+    <div class="home-text">
+      <p>Hi, I'm</p>
+      <h1>Prince Gupta</h1>
+      <h3>First-Year CSE (AI &amp; ML) Student</h3>
+      <p>Welcome to my portfolio website! Have a look around to know more about me.</p>
+      <a href="#about" class="btn">About Me</a>
+      <a href="#projects" class="btn btn-light">View Projects</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="title">About Me</h2>
+    <div class="box">
+      <p>Hello! I am Prince, a first-year B.Tech CSE (AI &amp; ML) student. I started learning web development this year and I really enjoy making websites. I like solving problems and learning new things every day.</p>
+      <p><b>Interests:</b> Web development, programming, design</p>
+      <p><b>Hobbies:</b> Editing, badminton</p>
+      <p><b>My goal:</b> To become a problem solver and a software engineer.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2 class="title">Education</h2>
+    <div class="timeline">
+      <div class="card">
+        <h3>B.Tech Computer Science and Engineering (AI &amp; ML)</h3>
+        <p>Department of CSE (AI &amp; ML) - 1st Year</p>
+        <p>Bosscoder School of Technology</p>
+        <p class="year">2026 - Present</p>
+      </div>
+      <div class="card">
+        <h3>Class 12 (Science)</h3>
+        <p>Percentage: 79.4%</p>
+      </div>
+      <div class="card">
+        <h3>Class 10</h3>
+        <p>Percentage: 63%</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="title">My Skills</h2>
+    <div class="skills-box">
+      <div class="skill">
+        <p>HTML <span>70%</span></p>
+        <div class="bar"><div class="fill" style="width: 70%"></div></div>
+      </div>
+      <div class="skill">
+        <p>CSS <span>65%</span></p>
+        <div class="bar"><div class="fill" style="width: 65%"></div></div>
+      </div>
+      <div class="skill">
+        <p>JavaScript <span>50%</span></p>
+        <div class="bar"><div class="fill" style="width: 50%"></div></div>
+      </div>
+      <div class="skill">
+        <p>Python <span>60%</span></p>
+        <div class="bar"><div class="fill" style="width: 60%"></div></div>
+      </div>
+      <div class="skill">
+        <p>Communication <span>75%</span></p>
+        <div class="bar"><div class="fill" style="width: 75%"></div></div>
+      </div>
+      <div class="skill">
+        <p>Teamwork <span>80%</span></p>
+        <div class="bar"><div class="fill" style="width: 80%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="title">My Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/project1.png" alt="portfolio project" onerror="this.src='https://placehold.co/400x220?text=Portfolio'">
+        <h3>Portfolio Website</h3>
+        <p>My personal website with dark mode and a contact form.</p>
+        <p class="tech">HTML, CSS, JavaScript</p>
+        <button class="btn details-btn">View Details</button>
+        <p class="more">This project has 8 sections, a theme switch, skill bars and form validation. I made it for my college assignment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="hobbies">
+    <h2 class="title">Hobbies and Interests</h2>
+    <div class="grid">
+      <div class="card center"><h3>Editing</h3><p>I like editing videos and photos.</p></div>
+      <div class="card center"><h3>Badminton</h3><p>I play badminton to stay active and fresh.</p></div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2 class="title">Achievements</h2>
+    <div class="grid">
+      <div class="card center"><h3>Admission to Bosscoder School of Technology</h3><p>Joined B.Tech CSE (AI &amp; ML) as a first-year student.</p><p class="year">2026</p></div>
+      <div class="card center"><h3>Personal Portfolio Website</h3><p>Built my own portfolio website using HTML, CSS and JavaScript.</p><p class="year">2026</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="title">Contact Me</h2>
+    <div class="contact-wrap">
+      <div class="box">
+        <p>Email: princeguptauser@gmail.com</p>
+        <p>Phone: +91 9303131381</p>
+        <p><a href="https://github.com/princeguptacse" target="_blank">GitHub</a></p>
+      </div>
+
+      <form id="contact-form">
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <p class="error" id="name-error"></p>
+
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Enter your email">
+        <p class="error" id="email-error"></p>
+
+        <label>Message</label>
+        <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+        <p class="error" id="message-error"></p>
+
+        <button type="submit" class="btn">Send</button>
+        <p id="success"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made by Prince Gupta | 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
